@@ -1,0 +1,26 @@
+# Automatically created by mypy
+.mypy_cache/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore model checkpoints and outputs
+train_models/
+output/
+results/
+runs/
+logs/
+
+# Ignore data artifacts
+data.zip
+sec_data/
+
+# (Optional) HuggingFace / Torch caches
+.cache/
+huggingface/
+transformers_cache/
+
